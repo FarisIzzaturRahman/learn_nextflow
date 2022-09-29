@@ -1,55 +1,64 @@
-Sep-29 12:00:42.550 [main] DEBUG nextflow.cli.Launcher - $> nextflow run tutorial.nf
-Sep-29 12:00:42.683 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.04.5
-Sep-29 12:00:42.811 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
-Sep-29 12:00:42.834 [main] INFO  nextflow.cli.CmdRun - Launching `tutorial.nf` [distraught_hawking] DSL2 - revision: b0d75e414e
-Sep-29 12:00:42.855 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/farisizzaturrahman/.nextflow/plugins; core-plugins: nf-amazon@1.7.2,nf-azure@0.13.2,nf-console@1.0.3,nf-ga4gh@1.0.3,nf-google@1.1.4,nf-sqldb@0.4.0,nf-tower@1.4.0
-Sep-29 12:00:42.857 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Sep-29 12:00:42.873 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Sep-29 12:00:42.874 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Sep-29 12:00:42.879 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
-Sep-29 12:00:42.894 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Sep-29 12:00:42.966 [main] DEBUG nextflow.Session - Session uuid: 6f2c2520-6fae-46ca-a93e-207a152544be
-Sep-29 12:00:42.966 [main] DEBUG nextflow.Session - Run name: distraught_hawking
-Sep-29 12:00:42.969 [main] DEBUG nextflow.Session - Executor pool size: 4
-Sep-29 12:00:42.993 [main] DEBUG nextflow.cli.CmdRun - 
+Sep-29 12:52:02.246 [main] DEBUG nextflow.cli.Launcher - $> nextflow run tutorial.nf
+Sep-29 12:52:02.385 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.04.5
+Sep-29 12:52:02.511 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Sep-29 12:52:02.544 [main] INFO  nextflow.cli.CmdRun - Launching `tutorial.nf` [jolly_swirles] DSL2 - revision: f7bc674a17
+Sep-29 12:52:02.562 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/farisizzaturrahman/.nextflow/plugins; core-plugins: nf-amazon@1.7.2,nf-azure@0.13.2,nf-console@1.0.3,nf-ga4gh@1.0.3,nf-google@1.1.4,nf-sqldb@0.4.0,nf-tower@1.4.0
+Sep-29 12:52:02.564 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-29 12:52:02.583 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-29 12:52:02.584 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-29 12:52:02.590 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-29 12:52:02.604 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-29 12:52:02.684 [main] DEBUG nextflow.Session - Session uuid: f657945b-9bdb-4a1b-8137-c19512fdeccd
+Sep-29 12:52:02.685 [main] DEBUG nextflow.Session - Run name: jolly_swirles
+Sep-29 12:52:02.689 [main] DEBUG nextflow.Session - Executor pool size: 4
+Sep-29 12:52:02.714 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 22.04.5 build 5708
   Created: 15-07-2022 16:09 UTC (23:09 WIST)
   System: Linux 5.10.16.3-microsoft-standard-WSL2
   Runtime: Groovy 3.0.10 on OpenJDK 64-Bit Server VM 1.8.0_332-b09
   Encoding: UTF-8 (UTF-8)
-  Process: 8089@DESKTOP-OJ0QC0A [127.0.1.1]
-  CPUs: 4 - Mem: 9.2 GB (8.3 GB) - Swap: 3 GB (3 GB)
-Sep-29 12:00:43.024 [main] DEBUG nextflow.Session - Work-dir: /home/farisizzaturrahman/program/nextflow/work [ext2/ext3]
-Sep-29 12:00:43.024 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/farisizzaturrahman/program/nextflow/bin
-Sep-29 12:00:43.038 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Sep-29 12:00:43.054 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Sep-29 12:00:43.186 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Sep-29 12:00:43.204 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
-Sep-29 12:00:43.306 [main] DEBUG nextflow.Session - Session start invoked
-Sep-29 12:00:44.277 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Sep-29 12:00:44.462 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Sep-29 12:00:44.462 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Sep-29 12:00:44.471 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Sep-29 12:00:44.483 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=9.2 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
-Sep-29 12:00:44.743 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Sep-29 12:00:44.743 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Sep-29 12:00:44.773 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: convertToUpper, splitLetters
-Sep-29 12:00:44.774 [main] DEBUG nextflow.Session - Ignite dataflow network (2)
-Sep-29 12:00:44.774 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > splitLetters
-Sep-29 12:00:44.775 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > convertToUpper
-Sep-29 12:00:44.781 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
-Sep-29 12:00:44.781 [main] DEBUG nextflow.Session - Session await
-Sep-29 12:00:44.954 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Sep-29 12:00:44.966 [Task submitter] INFO  nextflow.Session - [cc/d4a391] Submitted process > splitLetters
-Sep-29 12:00:45.008 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: splitLetters; status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/cc/d4a39170c467d5b05b4b335af49d6d]
-Sep-29 12:00:45.070 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Sep-29 12:00:45.070 [Task submitter] INFO  nextflow.Session - [77/d94b79] Submitted process > convertToUpper (1)
-Sep-29 12:00:45.076 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Sep-29 12:00:45.080 [Task submitter] INFO  nextflow.Session - [6a/e13332] Submitted process > convertToUpper (2)
-Sep-29 12:00:45.137 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: convertToUpper (1); status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/77/d94b796bd29be6014c4e790812a665]
-Sep-29 12:00:45.141 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: convertToUpper (2); status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/6a/e1333224e26bd233e9ef7b9801db35]
-Sep-29 12:00:45.148 [main] DEBUG nextflow.Session - Session await > all process finished
-Sep-29 12:00:45.237 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Sep-29 12:00:45.245 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=84ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
-Sep-29 12:00:45.370 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Sep-29 12:00:45.380 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 16361@DESKTOP-OJ0QC0A [127.0.1.1]
+  CPUs: 4 - Mem: 9.2 GB (7.9 GB) - Swap: 3 GB (3 GB)
+Sep-29 12:52:02.742 [main] DEBUG nextflow.Session - Work-dir: /home/farisizzaturrahman/program/nextflow/work [ext2/ext3]
+Sep-29 12:52:02.742 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/farisizzaturrahman/program/nextflow/bin
+Sep-29 12:52:02.756 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Sep-29 12:52:02.768 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-29 12:52:02.921 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Sep-29 12:52:02.939 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-29 12:52:03.048 [main] DEBUG nextflow.Session - Session start invoked
+Sep-29 12:52:04.003 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-29 12:52:04.164 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-29 12:52:04.165 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-29 12:52:04.173 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Sep-29 12:52:04.182 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=9.2 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Sep-29 12:52:04.406 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-29 12:52:04.406 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-29 12:52:04.412 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-29 12:52:04.413 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-29 12:52:04.438 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: convertToUpper, reverseWord, splitLetters
+Sep-29 12:52:04.438 [main] DEBUG nextflow.Session - Ignite dataflow network (3)
+Sep-29 12:52:04.439 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > splitLetters
+Sep-29 12:52:04.440 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > convertToUpper
+Sep-29 12:52:04.440 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > reverseWord
+Sep-29 12:52:04.442 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Sep-29 12:52:04.442 [main] DEBUG nextflow.Session - Session await
+Sep-29 12:52:04.633 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-29 12:52:04.639 [Task submitter] INFO  nextflow.Session - [88/9151b1] Submitted process > splitLetters
+Sep-29 12:52:04.677 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: splitLetters; status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/88/9151b1eddaa1fa9650840e88900858]
+Sep-29 12:52:04.752 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-29 12:52:04.755 [Task submitter] INFO  nextflow.Session - [71/b0c6ef] Submitted process > convertToUpper (2)
+Sep-29 12:52:04.765 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-29 12:52:04.770 [Task submitter] INFO  nextflow.Session - [f2/437590] Submitted process > convertToUpper (1)
+Sep-29 12:52:04.789 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: convertToUpper (2); status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/71/b0c6effcfabab6e17a41392d5580be]
+Sep-29 12:52:04.813 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-29 12:52:04.814 [Task submitter] INFO  nextflow.Session - [34/4330b0] Submitted process > reverseWord (1)
+Sep-29 12:52:04.822 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: convertToUpper (1); status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/f2/4375901a1d6d40090cdd5dde076ce0]
+Sep-29 12:52:04.836 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-29 12:52:04.837 [Task submitter] INFO  nextflow.Session - [c7/bb35a7] Submitted process > reverseWord (2)
+Sep-29 12:52:04.879 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: reverseWord (1); status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/34/4330b0316c60170352db3851b60adf]
+Sep-29 12:52:04.890 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: reverseWord (2); status: COMPLETED; exit: 0; error: -; workDir: /home/farisizzaturrahman/program/nextflow/work/c7/bb35a7754065ca3a1eb8b42d1d40cd]
+Sep-29 12:52:04.893 [main] DEBUG nextflow.Session - Session await > all process finished
+Sep-29 12:52:04.895 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Sep-29 12:52:04.903 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=5; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=110ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Sep-29 12:52:05.100 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Sep-29 12:52:05.111 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

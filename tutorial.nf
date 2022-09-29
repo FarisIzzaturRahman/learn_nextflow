@@ -22,6 +22,17 @@ process convertToUpper {
   """
 }
 
+process reverseWord{
+  input:
+    file x
+  output:
+    stdout
+
+  """
+  rev $x 
+  """
+}
+
 workflow {
-  splitLetters | flatten | convertToUpper | view { it.trim() }
+  splitLetters | flatten | convertToUpper | reverseWord | view { it.trim() }
 }
