@@ -1,0 +1,4 @@
+2022-09-29 11:53:37	-	mad_cuvier	-	1c3dea22d49acbae20030f8c5a814988	c2f81a37-e5da-4419-8910-645a70882853	nextflow run hello.nf
+2022-09-29 11:58:46	-	trusting_wilson	-	1c3dea22d49acbae20030f8c5a814988	e0742fb3-88ad-4095-8694-5298ff90a187	nextflow run hello.nf
+2022-09-29 12:00:42	3.4s	distraught_hawking	OK	b0d75e414e18097a59d8e28bdf556b6a	6f2c2520-6fae-46ca-a93e-207a152544be	nextflow run tutorial.nf
+2022-09-29 12:09:34	2.5s	fervent_meucci	OK	b0d75e414e18097a59d8e28bdf556b6a	0638774c-9594-45de-aa7a-bb18fd2fef63	nextflow run tutorial.nf
